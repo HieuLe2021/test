@@ -1,0 +1,43 @@
+// scripts/generateData.js
+const fetch = require('node-fetch');
+const fs = require('fs');
+
+(async () => {
+  // 1) cấu hình
+  const webhook = 'https://prod-51.southeastasia.logic.azure.com:443/workflows/…/invoke?api-version=2016-06-01&…';
+  const table   = 'crdfd_saleorderdetails';
+  const option  = '?$top=1000';
+  const columns = '&$select=crdfd_name,crdfd_trangthaionhang1,crdfd_khachhang,crdfd_nganhnghe,crdfd_tinhthanh,crdfd_productnum,crdfd_onvionhang,crdfd_gia,crdfd_onvitheokho,crdfd_ngaygiaodukientonghop,crdfd_tongtienchuavat,crdfd_gtgt,crdfd_tongtiencovat,cr1bb_nhanviensale,crdfd_saleorderdetailid,createdon';
+  const crmUrl  = `https://wecare-ii.crm5.dynamics.com/api/data/v9.2/${table}${option}${columns}`;
+
+  try {
+    // 2) Lấy token
+    const tokenResp = await fetch(webhook, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ targetUrl: crmUrl })
+    });
+    const token = await tokenResp.text();
+
+    // 3) Lấy data từ Dataverse
+    const dataResp = await fetch(crmUrl, {
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/json'
+      }
+    });
+    const data = await dataResp.json();
+
+    // 4) Ghi ra file public/data.json
+    fs.writeFileSync(
+      './public/data.json',
+      JSON.stringify(data, null, 2),
+      'utf-8'
+    );
+
+    console.log('✅ public/data.json đã được cập nhật');
+  } catch (err) {
+    console.error('❌ Lỗi khi fetch hoặc ghi file:', err);
+    process.exit(1);
+  }
+})();
