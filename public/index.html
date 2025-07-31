@@ -1,22 +1,11 @@
 <!doctype html>
-<html lang="vi">
-<head>
-  <meta charset="utf-8" />
-  <title>Wecare Data Portal</title>
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.10/css/pico.min.css">
-</head>
+<html>
+<head><meta charset="utf-8"><title>Wecare Data Portal</title></head>
 <body>
-  <main class="container">
-    <h1>Welcome</h1>
-    <ul>
-      <!-- Luôn mở sẵn bảng crdfd_employee -->
-      <li><a href="data.html?table=crdfd_employee">View crdfd_employee (HTML)</a></li>
-      <!-- Raw JSON (hoặc file tĩnh nếu bạn build sẵn) -->
-      <li><a
-        href="https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs&table=crdfd_employee"
-        target="_blank" rel="noopener">Raw JSON</a></li>
-    </ul>
-  </main>
+  <h1>Welcome</h1>
+  <ul>
+    <li><a href="/data.html">View data (HTML)</a></li>
+    <li><a href="/data.json">Raw JSON</a></li>
+  </ul>
 </body>
 </html>
