@@ -1,35 +1,41 @@
 <!doctype html>
-<html>
+<html lang="vi">
 <head>
   <meta charset="utf-8">
   <title>Wecare Data Dump</title>
+  <style>
+    body { font-family: Consolas, Menlo, monospace; margin: 32px; }
+    pre  { white-space: pre-wrap; word-break: break-word; }
+  </style>
 </head>
 <body>
   <h1>Wecare Data Dump</h1>
   <pre id="dump">Đang tải dữ liệu...</pre>
 
-  <script>
-    // 1) Đường dẫn tới data.json (có thể là relative hoặc absolute)
-    const url = './data.json'; 
-    // hoặc: const url = 'https://blue-desert-0887f160f.1.azurestaticapps.net/data.json';
+<script>
+/* ----------------------------- CẤU HÌNH ----------------------------- */
+const ENDPOINT =
+  'https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/'
++ 'triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun'
++ '&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs';
 
-    // 2) Fetch và hiển thị
-    fetch(url)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`Lỗi HTTP ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(data => {
-        // chuyển đối tượng JS thành chuỗi JSON dạng thụt lề 2 spaces
-        const pretty = JSON.stringify(data, null, 2);
-        document.getElementById('dump').textContent = pretty;
-      })
-      .catch(err => {
-        console.error(err);
-        document.getElementById('dump').textContent = 'Không thể tải dữ liệu.';
-      });
-  </script>
+/* ----------------------------- FETCH DATA ---------------------------- */
+fetch(ENDPOINT)
+  .then(r => {
+    if (!r.ok) throw new Error(`HTTP ${r.status} ${r.statusText}`);
+    return r.json();
+  })
+  .then(json => {
+    // In ra với indent 2 spaces
+    dump.textContent = JSON.stringify(json, null, 2);
+  })
+  .catch(err => {
+    console.error(err);
+    dump.textContent =
+      '❌ Không thể tải dữ liệu.\n' +
+      'Kiểm tra CORS trong Logic App hoặc chữ ký (sig).\n' +
+      err.message;
+  });
+</script>
 </body>
 </html>
