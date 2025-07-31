@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Metadata Browser</title>
+  <style>
+    body { font-family: Arial; margin: 2rem; }
+    select, button { padding: 0.5rem; margin: 0.5rem 0; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <h2>📋 Chọn bảng để tải metadata</h2>
+  <select id="entityDropdown"><option>Đang tải danh sách bảng…</option></select>
+  <button onclick="loadMetadata()">Chọn bảng này</button>
+  <pre id="status">...</pre>
+
+  <script>
+    const CRM_URL = "https://wecare-ii.crm5.dynamics.com";
+    const LOGIC_APP = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs";
+    const entityMap = {};
+
+    const dropdown = document.getElementById("entityDropdown");
+    const status = document.getElementById("status");
+
+    async function fetchToken(url) {
+      const resp = await fetch(LOGIC_APP, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ targetUrl: url })
+      });
+      return await resp.text();
+    }
+
+    async function fetchEntityList() {
+      const url = `${CRM_URL}/api/data/v9.2/EntityDefinitions?$select=LogicalName,EntitySetName&$filter=IsCustomizable/Value eq true`;
+      const token = await fetchToken(url);
+      const resp = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+      const json = await resp.json();
+      dropdown.innerHTML = "";
+      json.value.forEach(ent => {
+        entityMap[ent.LogicalName] = ent.EntitySetName;
+        const opt = document.createElement("option");
+        opt.value = ent.LogicalName;
+        opt.textContent = ent.LogicalName;
+        dropdown.appendChild(opt);
+      });
+      status.textContent = `✅ Có ${json.value.length} bảng.`;
+    }
+
+    async function loadMetadata() {
+      const logical = dropdown.value;
+      const entitySet = entityMap[logical];
+      const attrUrl = `${CRM_URL}/api/data/v9.2/EntityDefinitions(LogicalName='${logical}')/Attributes?$select=LogicalName,AttributeType`;
+      const token = await fetchToken(attrUrl);
+      const resp = await fetch(attrUrl, { headers: { Authorization: `Bearer ${token}` } });
+      const json = await resp.json();
+
+      const systemFields = ["ownerid", "owneridtype", "statecode", "statuscode", "createdon", "modifiedon", "owninguser", "owningbusinessunit", "versionnumber"];
+      const fields = json.value
+        .filter(attr => !["Lookup", "Customer", "Owner", "PartyList", "Virtual"].includes(attr.AttributeType))
+        .map(attr => attr.LogicalName)
+        .filter(name => !name.endsWith("name") && !systemFields.includes(name.toLowerCase()));
+
+      const lookups = json.value
+        .filter(attr => ["Lookup", "Customer", "Owner"].includes(attr.AttributeType))
+        .map(attr => `_${attr.LogicalName}_value`);
+
+      const selectedFields = [...fields, ...lookups].slice(0, 20);
+
+      // Gửi qua sessionStorage
+      sessionStorage.setItem("entitySet", entitySet);
+      sessionStorage.setItem("fields", JSON.stringify(selectedFields));
+      window.location.href = "data-loader.html";
+    }
+
+    document.addEventListener("DOMContentLoaded", fetchEntityList);
+  </script>
+</body>
+</html>
