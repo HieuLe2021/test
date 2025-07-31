@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Viewer</title>
+  <style>
+    body { font-family: Arial; margin: 2rem; }
+    pre { background: #f8f8f8; padding: 1rem; border: 1px solid #ccc; white-space: pre-wrap; max-height: 80vh; overflow-y: auto; }
+  </style>
+</head>
+<body>
+  <h2>📄 Dữ liệu bảng đã chọn</h2>
+  <pre id="output">⏳ Đang tải dữ liệu…</pre>
+
+  <script>
+    const CRM_URL = "https://wecare-ii.crm5.dynamics.com";
+    const LOGIC_APP = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs";
+    const output = document.getElementById("output");
+
+    async function fetchToken(url) {
+      const resp = await fetch(LOGIC_APP, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ targetUrl: url })
+      });
+      return await resp.text();
+    }
+
+    async function loadData() {
+      const entitySet = sessionStorage.getItem("entitySet");
+      const fields = JSON.parse(sessionStorage.getItem("fields") || "[]");
+      if (!entitySet || fields.length === 0) {
+        output.textContent = "⚠️ Không có dữ liệu để tải. Vui lòng quay lại bước chọn bảng.";
+        return;
+      }
+      const select = fields.join(",");
+      const url = `${CRM_URL}/api/data/v9.2/${entitySet}?$select=${select}&$top=50`;
+      const token = await fetchToken(url);
+
+      try {
+        const resp = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+        const json = await resp.json();
+        output.textContent = JSON.stringify(json, null, 2);
+      } catch (err) {
+        output.textContent = `❌ Lỗi khi load dữ liệu: ${err.message}`;
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", loadData);
+  </script>
+</body>
+</html>
