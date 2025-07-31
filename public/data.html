@@ -1,87 +1,35 @@
 <!doctype html>
-<html lang="vi">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <title>Dataverse Data</title>
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.10/css/pico.min.css">
-  <style>
-    thead th { position: sticky; top: 0; }
-    code, pre { white-space: pre-wrap; }
-  </style>
+  <meta charset="utf-8">
+  <title>Wecare Data Dump</title>
 </head>
 <body>
-  <main class="container">
-    <h1 id="page-title">Đang tải…</h1>
-    <p><a id="download-link" href="#" download>Download raw JSON</a></p>
+  <h1>Wecare Data Dump</h1>
+  <pre id="dump">Đang tải dữ liệu...</pre>
 
-    <table id="data-table">
-      <thead></thead>
-      <tbody></tbody>
-    </table>
+  <script>
+    // 1) Đường dẫn tới data.json (có thể là relative hoặc absolute)
+    const url = './data.json'; 
+    // hoặc: const url = 'https://blue-desert-0887f160f.1.azurestaticapps.net/data.json';
 
-    <details>
-      <summary>Raw JSON</summary>
-      <pre id="json-container">Đang tải…</pre>
-    </details>
-  </main>
-
-<script>
-/* --------- CẤU HÌNH --------- */
-const DEFAULT_TABLE = 'crdfd_employee';
-const BASE_ENDPOINT =
-  'https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs';
-
-/* --------- XÁC ĐỊNH TÊN BẢNG --------- */
-const params = new URLSearchParams(location.search);
-const table   = params.get('table') || DEFAULT_TABLE;
-document.title = `Dataverse – ${table}`;
-document.getElementById('page-title').textContent = table;
-
-/* --------- GỌI ENDPOINT --------- */
-/* Nếu Logic App cần tên bảng -> thêm param &table=... */
-const ENDPOINT = `${BASE_ENDPOINT}&table=${encodeURIComponent(table)}`;
-
-async function loadData() {
-  try {
-    const res  = await fetch(ENDPOINT);
-    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-    const json = await res.json();
-
-    /* Hiển thị JSON thô */
-    document.getElementById('json-container').textContent =
-      JSON.stringify(json, null, 2);
-
-    /* Link download */
-    const blob = new Blob([JSON.stringify(json, null, 2)],
-                          { type: 'application/json' });
-    const dl   = document.getElementById('download-link');
-    dl.href           = URL.createObjectURL(blob);
-    dl.download       = `${table}.json`;
-    dl.textContent    = `Download ${table}.json`;
-
-    /* Render bảng */
-    const rows = Array.isArray(json) ? json : (json.value || []);
-    if (rows.length === 0) return;
-
-    const cols = Object.keys(rows[0]);
-    const thead = document.querySelector('#data-table thead');
-    thead.innerHTML =
-      '<tr>' + cols.map(c => `<th>${c}</th>`).join('') + '</tr>';
-
-    const tbody = document.querySelector('#data-table tbody');
-    tbody.innerHTML = rows.map(r =>
-      '<tr>' + cols.map(c =>
-        `<td>${r[c] != null ? r[c] : ''}</td>`).join('')
-      + '</tr>').join('');
-  } catch (err) {
-    document.getElementById('json-container').textContent =
-      '⚠️ ' + err.message;
-    console.error(err);
-  }
-}
-
-loadData();
-</script>
+    // 2) Fetch và hiển thị
+    fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Lỗi HTTP ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        // chuyển đối tượng JS thành chuỗi JSON dạng thụt lề 2 spaces
+        const pretty = JSON.stringify(data, null, 2);
+        document.getElementById('dump').textContent = pretty;
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById('dump').textContent = 'Không thể tải dữ liệu.';
+      });
+  </script>
 </body>
 </html>
