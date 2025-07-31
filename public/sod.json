@@ -1,9 +1,10 @@
 // scripts/generateData.js
 const fetch = require('node-fetch');
-const fs = require('fs');
+const fs    = require('fs');
+const path  = require('path');
 
 (async () => {
-  // 1) cấu hình
+  // 1) Cấu hình
   const webhook = 'https://prod-51.southeastasia.logic.azure.com:443/workflows/…/invoke?api-version=2016-06-01&…';
   const table   = 'crdfd_saleorderdetails';
   const option  = '?$top=1000';
@@ -11,7 +12,7 @@ const fs = require('fs');
   const crmUrl  = `https://wecare-ii.crm5.dynamics.com/api/data/v9.2/${table}${option}${columns}`;
 
   try {
-    // 2) Lấy token
+    // 2) Lấy token từ Logic App
     const tokenResp = await fetch(webhook, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -26,16 +27,17 @@ const fs = require('fs');
         'Accept': 'application/json'
       }
     });
-    const data = await dataResp.json();
+    const json = await dataResp.json();
 
-    // 4) Ghi ra file public/data.json
+    // 4) Ghi ra file public/sod.json
+    const outPath = path.join(__dirname, '../public/sod.json');
     fs.writeFileSync(
-      './public/data.json',
-      JSON.stringify(data, null, 2),
+      outPath,
+      JSON.stringify(json, null, 2),
       'utf-8'
     );
 
-    console.log('✅ public/data.json đã được cập nhật');
+    console.log('✅ public/sod.json đã được cập nhật');
   } catch (err) {
     console.error('❌ Lỗi khi fetch hoặc ghi file:', err);
     process.exit(1);
