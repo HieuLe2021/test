@@ -2,93 +2,63 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8" />
-  <title>Dataverse Browser</title>
+  <title>Trình duyệt Dataverse</title>
   <style>
-    body{font-family:system-ui,Arial,Helvetica,sans-serif;margin:2rem}
-    .flex{display:flex;gap:0.75rem;align-items:center;margin-bottom:1rem}
-    select,input,button{padding:0.5rem;font-size:1rem}
-    pre{background:#f7f7f7;padding:1rem;border:1px solid #ddd;overflow:auto;max-height:70vh}
+    body { font-family: sans-serif; margin: 2rem; }
+    select, button { padding: 0.5rem; font-size: 1rem; margin-left: 0.5rem; }
+    pre { background: #f6f6f6; padding: 1rem; border: 1px solid #ccc; margin-top: 1rem; white-space: pre-wrap; word-wrap: break-word; }
   </style>
 </head>
 <body>
   <h2>📄 Trình duyệt dữ liệu Dataverse</h2>
 
-  <!-- Chọn / nhập LogicalName -->
-  <div class="flex">
-    <label for="table">Chọn bảng:&nbsp;</label>
-    <select id="table">
-      <option value="crdfd_saleorderdetails">crdfd_saleorderdetails</option>
-      <option value="crdfd_employee">crdfd_employee</option>
-      <!-- Thêm bảng khác tại đây -->
-      <option value="__custom">⟵ Tự nhập</option>
-    </select>
-    <input id="customTable" placeholder="Nhập LogicalName…" style="display:none;width:16rem">
-    <button id="btnLoad">Tải dữ liệu</button>
-  </div>
+  <label for="table">Chọn bảng:</label>
+  <select id="table">
+    <option value="crdfd_employee">crdfd_employee</option>
+    <option value="crdfd_saleorderdetails" selected>crdfd_saleorderdetails</option>
+    <option value="crdfd_customer">crdfd_customer</option>
+    <!-- thêm bảng khác tùy bạn -->
+  </select>
 
-  <pre id="output">Hãy chọn bảng và bấm “Tải dữ liệu”.</pre>
+  <button onclick="loadData()">Tải dữ liệu</button>
+
+  <pre id="output">🔄 Hãy chọn bảng và bấm “Tải dữ liệu”.</pre>
 
   <script>
-    /* ====== Tùy chỉnh nhanh ====== */
-    const LOGIC_APP   = 'https://prod-51.southeastasia.logic.azure.com/…sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs';
-    const CRM_DOMAIN  = 'https://wecare-ii.crm5.dynamics.com';
-    const MAX_TOP     = 1000;                   // số bản ghi mỗi trang
-    /* ================================= */
+    async function loadData() {
+      const output = document.getElementById("output");
+      output.textContent = "⏳ Đang tải dữ liệu…";
 
-    // Cột cần lấy (áp dụng cho mọi bảng; sửa lại nếu cần riêng biệt)
-    const SELECT_COLUMNS = [
-      'crdfd_name','createdon','modifiedon'
-      // thêm cột khác...
-    ].join(',');
+      const table = document.getElementById("table").value;
 
-    const tableSel   = document.getElementById('table');
-    const customInput= document.getElementById('customTable');
-    const output     = document.getElementById('output');
-    const btnLoad    = document.getElementById('btnLoad');
+      const webhook = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs";
 
-    // Hiện ô input nếu user chọn “Tự nhập”
-    tableSel.addEventListener('change', () => {
-      customInput.style.display = tableSel.value === '__custom' ? 'inline-block' : 'none';
-    });
+      const option = "?$top=1000";
+      const columns = "&$select=crdfd_name,crdfd_trangthaionhang1,crdfd_khachhang,crdfd_nganhnghe,crdfd_tinhthanh,crdfd_productnum,crdfd_onvionhang,crdfd_gia,crdfd_onvitheokho,crdfd_ngaygiaodukientonghop,crdfd_tongtienchuavat,crdfd_gtgt,crdfd_tongtiencovat,cr1bb_nhanviensale,crdfd_saleorderdetailid,createdon";
 
-    btnLoad.addEventListener('click', () => {
-      const tableName = tableSel.value === '__custom'
-        ? customInput.value.trim()
-        : tableSel.value;
-      if (!tableName) { alert('Chưa nhập tên bảng!'); return; }
-      loadData(tableName);
-    });
+      const crmUrl = "https://wecare-ii.crm5.dynamics.com/api/data/v9.2/" + table + option + columns;
 
-    async function loadData(table) {
-      const show = msg => output.textContent = msg;
       try {
-        show('⏳ Lấy token…');
-        const baseUrl = `${CRM_DOMAIN}/api/data/v9.2/${table}?$top=${MAX_TOP}&$select=${encodeURIComponent(SELECT_COLUMNS)}`;
-
-        /* --- 1. Lấy Access-Token qua Logic App --- */
-        const tokenResp = await fetch(LOGIC_APP, {
-          method:'POST',
-          headers:{'Content-Type':'application/json'},
-          body:JSON.stringify({ targetUrl: baseUrl })
+        // B1. Lấy token từ Logic App
+        const tokenResp = await fetch(webhook, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ targetUrl: crmUrl })
         });
-        if (!tokenResp.ok) throw new Error(`Token error ${tokenResp.status}`);
         const token = await tokenResp.text();
 
-        /* --- 2. Gọi Dataverse (đã xử lý phân trang) --- */
-        let url = baseUrl, all = [];
-        while (url){
-          show(`⏳ Đang tải dữ liệu… (${all.length})`);
-          const resp = await fetch(url,{ headers:{Authorization:`Bearer ${token}`}});
-          if (!resp.ok) throw new Error(`OData error ${resp.status}`);
-          const json = await resp.json();
-          all = all.concat(json.value);
-          url = json['@odata.nextLink'];
-        }
+        // B2. Gọi Dataverse
+        const dataResp = await fetch(crmUrl, {
+          headers: {
+            'Authorization': 'Bearer ' + token,
+            'Accept': 'application/json'
+          }
+        });
 
-        /* --- 3. Hiển thị --- */
-        show(JSON.stringify(all, null, 2));
+        const data = await dataResp.json();
+        output.textContent = JSON.stringify(data, null, 2);
       } catch (err) {
-        show('❌ Lỗi: ' + err.message);
+        output.textContent = `❌ Lỗi: ${err.message}`;
       }
     }
   </script>
