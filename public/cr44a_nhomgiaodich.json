@@ -1,0 +1,4234 @@
+[
+  {
+    "STT": 1,
+    "Giao d?ch": "C?n tr? c?ng n? kh?ch h?ng - Wecare thu h? (b??c 1)",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 2,
+    "Giao d?ch": "C?n tr? c?ng n? kh?ch h?ng - Weshop thu h? (b??c 2)",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 3,
+    "Giao d?ch": "N?p ti?n thu?, ph? h?ng nh?p kh?u_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 4,
+    "Giao d?ch": "Thu?, ph? h?ng ho? nh?p kh?u_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 5,
+    "Giao d?ch": "C?n tr? c?ng n? kh?ch h?ng - Wecare thu h? (b??c 2)",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 6,
+    "Giao d?ch": "X? l? h?ng ho? th?t l?c_KHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 7,
+    "Giao d?ch": "Doanh thu d?ch v? v?n chuy?n h?ng b?n_KHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 8,
+    "Giao d?ch": "X? l? ph?i thu, ph?i tr? kh?c_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 9,
+    "Giao d?ch": "Ph?i thu, ph?i tr? kh?c_Ng?n h?ng_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 10,
+    "Giao d?ch": "?i?u ch?nh gi?m gi? v?n h?ng b?n do h?ng h?a th?t l?c_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 11,
+    "Giao d?ch": "H?ch to?n ?i?u ch?nh t?ng chi ph?",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 12,
+    "Giao d?ch": "H?ch to?n gi?m chi ph?",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 13,
+    "Giao d?ch": "C?n tr? c?ng n? kh?ch h?ng_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 14,
+    "Giao d?ch": "Nh?n ho? ??n chi ph? tr?ch tr??c_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 15,
+    "Giao d?ch": "H?ch to?n Tr? l??ng kh?c NL?_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 16,
+    "Giao d?ch": "?i?u ch?nh ch?nh l?ch h?ng g?i ?i gia c?ng_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 17,
+    "Giao d?ch": "Ghi nh?n chi ph?_XDCB_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 18,
+    "Giao d?ch": "Ghi nh?n VTHH th?a thi?u v?o thu nh?p kh?c_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 19,
+    "Giao d?ch": "Ghi nh?n VTHH th?a thi?u v?o thu nh?p kh?c_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 20,
+    "Giao d?ch": "Mua h?ng d?ch v?_NVK D? li?u c?_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 21,
+    "Giao d?ch": "Mua h?ng d?ch v?_D? li?u c?_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 22,
+    "Giao d?ch": "X? l? s? l? d? -C?ng n? Kh?ch h?ng/NCC_TM_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 23,
+    "Giao d?ch": "C?n tr? c?ng n? kh?ch h?ng - Weshop thu h? (b??c 1)",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 24,
+    "Giao d?ch": "Thu h? - Chi h? Weshop v? Wecare",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 25,
+    "Giao d?ch": "X? l? s? l? thi?u -Thu ti?n Kh?ch h?ng_TM_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 26,
+    "Giao d?ch": "Ghi t?ng c?ng n? nh?n vi?n sale v?o thu nh?p kh?c_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 27,
+    "Giao d?ch": "Ho?n ?ng chi ph? xi m?_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 28,
+    "Giao d?ch": "Ho?n ?ng chi ph? v?n chuy?n_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 29,
+    "Giao d?ch": "Ho?n ?ng chi ph? kh?c_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 30,
+    "Giao d?ch": "Ho?n ?ng kh?c chi ph? d?ch v? mua ngo?i_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 31,
+    "Giao d?ch": "Thu ti?n ho?n ?ng nh?n vi?n ti?n m?t - HL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 32,
+    "Giao d?ch": "T?m ?ng tr? l??ng ti?n v? m?y bay_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 33,
+    "Giao d?ch": "Ghi nh?n chi ph? ?? x? l? t?i kho?n ph?i thu kh?c_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 34,
+    "Giao d?ch": "Chi l??ng nh?n vi?n ti?n g?i_KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 35,
+    "Giao d?ch": "Tr?ch n?p chi ph? c?ng ?o?n_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 36,
+    "Giao d?ch": "Tr?ch tr??c chi ph? ph?t sinh ch?a nh?n ho? ??n_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 37,
+    "Giao d?ch": "Ho?n ?ng chi ph? kh?c_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 38,
+    "Giao d?ch": "Chi ph? ph?n b? CCDC, CPTT_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 39,
+    "Giao d?ch": "X? l? s? l? d? -Ph?i tr? NCC_Ti?n g?i - KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 40,
+    "Giao d?ch": "Chi tr? c?c kho?n chi ph? kh?c TGNH_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 41,
+    "Giao d?ch": "X? l? kh?ch h?ng n? x?u_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 42,
+    "Giao d?ch": "X? l? kh?ch h?ng n? x?u_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 43,
+    "Giao d?ch": "Chi ph? b?c x?p_KHL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 44,
+    "Giao d?ch": "C?c kho?n truy thu/truy l?nh v?o l??ng NL?_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 45,
+    "Giao d?ch": "X? l? ph?i thu kh?ch h?ng_NVK_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 46,
+    "Giao d?ch": "X? l? ph?i thu kh?ch h?ng_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 47,
+    "Giao d?ch": "Nh?p kho h?ng tr?_CHD_X? l? giao b?",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 48,
+    "Giao d?ch": "?i?u ch?nh gi? tr? t?n kho do sai l?ch l?m tr?n s?_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 49,
+    "Giao d?ch": "?i?u ch?nh gi? tr? t?n kho do sai l?ch l?m tr?n s?_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 50,
+    "Giao d?ch": "Tr?ch tr??c chi ph? ph?t sinh ch?a nh?n ho? ??n_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 51,
+    "Giao d?ch": "Chi?t kh?u th??ng mai KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 52,
+    "Giao d?ch": "Chi?t kh?u th??ng mai HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 53,
+    "Giao d?ch": "Thu l?i ti?n thu? n?p thay cho c? nh?n HL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 54,
+    "Giao d?ch": "Xu?t kho VTHH ti?u d?ng n?i b?_CHD",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 55,
+    "Giao d?ch": "T?m ?ng n?p thu? TNCN t? chuy?n nh??ng v?n",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 56,
+    "Giao d?ch": "Ghi nh?n chi ph? c? nh?n thu? ngo?i_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 57,
+    "Giao d?ch": "Mua h?ng ho?, d?ch v? XDCB_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 58,
+    "Giao d?ch": "C?n tr? c?ng n? kh?ch h?ng_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 59,
+    "Giao d?ch": "Chi?t kh?u thanh to?n_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 60,
+    "Giao d?ch": "N?p thu? b?ng ti?n m?t_KHL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 61,
+    "Giao d?ch": "N?p thu? b?ng ti?n m?t_HL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 62,
+    "Giao d?ch": "Ghi t?ng CCDC t? x?y d?ng, l?p ??t_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 63,
+    "Giao d?ch": "Ghi nh?n chi ph? BHYT_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 64,
+    "Giao d?ch": "?i?u ch?nh t?ng thu? TNCN",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 65,
+    "Giao d?ch": "?i?u ch?nh t?ng kho_CHD_MH",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 66,
+    "Giao d?ch": "?i?u ch?nh t?ng kho_KHD_MH",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 67,
+    "Giao d?ch": "Thu kh?c ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 68,
+    "Giao d?ch": "Xu?t kho VTHH ti?u d?ng n?i b?_KHL",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 69,
+    "Giao d?ch": "Xu?t kho VTHH ti?u d?ng n?i b?_HL",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 70,
+    "Giao d?ch": "Ho?n ?ng kh?c_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 71,
+    "Giao d?ch": "Ho?n ?ng kh?c_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 72,
+    "Giao d?ch": "?i?u ch?nh t?ng kho_KHD_1561B_3381B",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 73,
+    "Giao d?ch": "?i?u ch?nh T?ng kho_CHD_1561A_3381A",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 74,
+    "Giao d?ch": "Chi ph? ti?n l??ng ngo?i KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 75,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c kh?c_CHD_6321",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 76,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng - Ph? xu?t ho? ??n x? l?_X? l? c?ng n?",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 77,
+    "Giao d?ch": "Thu ti?n g?i kh?ch h?ng trong n??c_KHD_Ti?n m?t",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 78,
+    "Giao d?ch": "X? l? c?ng n? do thanh to?n d? cho NCC_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 79,
+    "Giao d?ch": "Ph?n b? chi ph? tr? tr??c d?i h?n_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 80,
+    "Giao d?ch": "Ph?n b? chi ph? tr? tr??c ng?n h?n_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 81,
+    "Giao d?ch": "Chi ph? ph?n b? CCDC, CPTT d?i h?n_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 82,
+    "Giao d?ch": "Chi ph? ph?n b? CCDC, CPTT ng?n h?n_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 83,
+    "Giao d?ch": "R?t ti?n g?i v? nh?p qu? ti?n m?t_KHL_1111B",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 84,
+    "Giao d?ch": "Chi ti?n tr? nh? cung c?p ti?n m?t_CHD_1111D",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 85,
+    "Giao d?ch": "Chi l??ng ti?n m?t_x? l? c?ng n? nh?n vi?n sale_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 86,
+    "Giao d?ch": "Thu ti?n x? l? c?ng n? nh?n vi?n sale",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 87,
+    "Giao d?ch": "C?n tr? c?ng n? NCC_Ho?n ?ng nh?n vi?n - HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 88,
+    "Giao d?ch": "Chi ph? tr? tr??c v?n ph?ng ph?m",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 89,
+    "Giao d?ch": "Chi ti?n m?t t? tk vay",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 90,
+    "Giao d?ch": "Chi t?m ?ng ti?n m?t_KH?",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 91,
+    "Giao d?ch": "L? ph? m?n b?i",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 92,
+    "Giao d?ch": "X? l? TNCN",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 93,
+    "Giao d?ch": "Chi ti?n g?i - C?ng ?o?n - KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 94,
+    "Giao d?ch": "Chi?t kh?u th??ng m?i_HL_133A_331A",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 95,
+    "Giao d?ch": "Tr? l??ng nh?n vi?n - KPC? - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 96,
+    "Giao d?ch": "Thu ti?n NL? kho?n ph?i thu kh?c_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 97,
+    "Giao d?ch": "Ph?i thu NL? ti?n BHYT",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 98,
+    "Giao d?ch": "?i?u chuy?n t?i kho?n 1311B",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 99,
+    "Giao d?ch": "C?n tr? c?ng n? KH_T?m ?ng_1419",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 100,
+    "Giao d?ch": "Gi? v?n h?ng h?a_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 101,
+    "Giao d?ch": "Thu? TNCN t? chuy?n nh??ng v?n",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 102,
+    "Giao d?ch": "Chi?t kh?u thanh to?n _HL_515_331",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 103,
+    "Giao d?ch": "X? l? c?ng n? kh? ??i - 2 b??c - KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 104,
+    "Giao d?ch": "Ti?n ph?t thu? v? c?c kho?n ch?m n?p kh?c",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 105,
+    "Giao d?ch": "?i?u ch?nh t?ng c?ng n? (ph? h?a ??n c?n tr? NCC) _KHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 106,
+    "Giao d?ch": "N?p ph?, l? ph? v? c?c kho?n ph?i n?p kh?c_KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 107,
+    "Giao d?ch": "Ph?, l? ph? v? c?c kho?n ph?i n?p kh?c - KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 108,
+    "Giao d?ch": "N?p ph?, l? ph? v? c?c kho?n ph?i n?p kh?c_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 109,
+    "Giao d?ch": "N?p thu? TNDN tax_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 110,
+    "Giao d?ch": "X? l? ti?u h?y h?ng h?a b? h?ng, m?t ph?m ch?t - KHL",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 111,
+    "Giao d?ch": "X? l? ti?u h?y h?ng h?a b? h?ng, m?t ph?m ch?t - HL",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 112,
+    "Giao d?ch": "Thu ti?n ho?n ?ng nh?n vi?n ti?n m?t - KHL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 113,
+    "Giao d?ch": "H?ng b?n tr? l?i_DLC_KHD",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 114,
+    "Giao d?ch": "Xu?t b?n h?ng_DLC_KHD_SG",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 115,
+    "Giao d?ch": "Xu?t b?n h?ng_DLC_CHD_SG",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 116,
+    "Giao d?ch": "H?ng b?n tr? l?i_DLC_CHD",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 117,
+    "Giao d?ch": "T?m ?ng kh?c_KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 118,
+    "Giao d?ch": "Chi ph? tr? tr??c ng?n h?n_CHD_Mua h?ng",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 119,
+    "Giao d?ch": "Ho?n ?ng mua h?ng_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 120,
+    "Giao d?ch": "Chi ti?n t?m ?ng nh?n vi?n ti?n g?i_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 121,
+    "Giao d?ch": "Nh?p kho v?t t? h?ng h?a sau gia c?ng - KHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 122,
+    "Giao d?ch": "Nh?p kho v?t t? h?ng h?a sau gia c?ng - CHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 123,
+    "Giao d?ch": "Xu?t kho v?t t? h?ng h?a ?i gia c?ng - KHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 124,
+    "Giao d?ch": "Xu?t kho v?t t? h?ng h?a ?i gia c?ng - CHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 125,
+    "Giao d?ch": "X? l? v?t t? h?ng h?a thi?u - KHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 126,
+    "Giao d?ch": "X? l? v?t t? h?ng h?a thi?u - CHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 127,
+    "Giao d?ch": "X? l? v?t t? h?ng h?a th?a - KHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 128,
+    "Giao d?ch": "X? l? v?t t? h?ng h?a th?a - CHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 129,
+    "Giao d?ch": "?i?u ch?nh t?ng c?ng n? NCC(mua h?ng) - KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 130,
+    "Giao d?ch": "X? l? s? l? thi?u - Ph?i thu KH - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 131,
+    "Giao d?ch": "X? l? s? l? thi?u - Ph?i tr? KH - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 132,
+    "Giao d?ch": "X? l? s? l? d? - Ph?i thu KH - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 133,
+    "Giao d?ch": "C?n tr? c?ng n? 1311B-3311B-KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 134,
+    "Giao d?ch": "Ghi gi?m c?ng n? NCC xu?t HD gi?i ng?n_KHL_632B_3311B",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 135,
+    "Giao d?ch": "Chi phi VAT H?a ??n gi?i ng?n_KHL_64228B_331B",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 136,
+    "Giao d?ch": "X? l? kho_DLC_CHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 137,
+    "Giao d?ch": "Nh?p kh?u_DLC_CHD",
+    "Type nghi?p v?": "Mua nh?p kh?u",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 138,
+    "Giao d?ch": "X? l? kho_DLC_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 139,
+    "Giao d?ch": "Chi ti?n mua d?ch v?_DLC_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 140,
+    "Giao d?ch": "X? l? s? l? thi?u -Ph?i tr? NCC - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 141,
+    "Giao d?ch": "X? l? s? l? d? -Ph?i tr? NCC - KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 142,
+    "Giao d?ch": "X? l? s? l? d? -Ph?i tr? NCC - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 143,
+    "Giao d?ch": "Thu l?i ti?n do ghi nh?n gi?m chi ph? - KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 144,
+    "Giao d?ch": "Ho?n thu? TNCN cho NL? 3335_3388",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 145,
+    "Giao d?ch": "Thu ti?n nh? cung c?p tr? l?i KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 146,
+    "Giao d?ch": "?i?u ch?nh gi?m doanh thu - ti?n m?t N511-C111",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 147,
+    "Giao d?ch": "Tr? ti?n m?t m??n n?i b?",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 148,
+    "Giao d?ch": "Chi ph? ??ng g?i s?n ph?m_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 149,
+    "Giao d?ch": "?i?u ch?nh t?ng c?ng n? NCC(mua h?ng) - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 150,
+    "Giao d?ch": "Chi?t kh?u b?n l? - KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 151,
+    "Giao d?ch": "?i?u chuy?n c?ng n? 1311 - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 152,
+    "Giao d?ch": "?i?u ch?nh t?ng/gi?m thu? GTGT ??u v?o(D?nh cho Lan)",
+    "Type nghi?p v?": "?i?u ch?nh h?a ??n mua",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 153,
+    "Giao d?ch": "Chi ti?n - X? l? c?ng n? b?n h?ng - 811_11217(Th?y h?ch to?n)",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 154,
+    "Giao d?ch": "Ph?, l? ph? v? c?c kho?n ph?i n?p kh?c - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 155,
+    "Giao d?ch": "Chi l??ng ngo?i NA_?K - KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 156,
+    "Giao d?ch": "Ho?n ?ng sale",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 157,
+    "Giao d?ch": "T?m ?ng tr? l??ng 1418",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 158,
+    "Giao d?ch": "Chi ph? c?ng t?c BH-KHL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 159,
+    "Giao d?ch": "Chi ph? c?ng t?c ph? QL-KHL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 160,
+    "Giao d?ch": "Chi ph? c?ng t?c QL_HL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 161,
+    "Giao d?ch": "Chi ph? c?ng t?c BH - HL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 162,
+    "Giao d?ch": "Chi ph? QL_KHL: Ti?p kh?ch...",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 163,
+    "Giao d?ch": "Chi ph? BH_KHL: Ti?p kh?ch, qu? t?ng KH....",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 164,
+    "Giao d?ch": "Chi ph? V?n ph?ng ph?m -HL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 165,
+    "Giao d?ch": "Chi ph? ti?p kh?ch BH-HL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 166,
+    "Giao d?ch": "M??n ti?n m?t n?i b?",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 167,
+    "Giao d?ch": "Chi ti?n g?i - C?ng ?o?n - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 168,
+    "Giao d?ch": "Chi tr? l?i vay TC, CN kh?c - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 169,
+    "Giao d?ch": "?i?u ch?nh t?ng/gi?m thu? GTGT ??u ra",
+    "Type nghi?p v?": "?i?u ch?nh h?a ??n b?n",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 170,
+    "Giao d?ch": "Ho?n ?ng c?ng t?c 1414 - HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 171,
+    "Giao d?ch": "T?m ?ng c?ng t?c - 1414 - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 172,
+    "Giao d?ch": "?i?u ch?nh thu? GTGT",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 173,
+    "Giao d?ch": "Thu ti?n t? cho m??n (tr? ti?n) - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 174,
+    "Giao d?ch": "Chi ph? B?n h?ng kh?c",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 175,
+    "Giao d?ch": "Chi ph? Qu?n l? kh?c",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 176,
+    "Giao d?ch": "Chi ph? d?ch v? mua ngo?i B?n h?ng - HL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 177,
+    "Giao d?ch": "Chi ph? d?ch v? mua ngo?i Qu?n l? - HL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 178,
+    "Giao d?ch": "Chi ph? B?n h?ng HL - Ti?p kh?ch",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 179,
+    "Giao d?ch": "Chi ph? Qu?n l? HL - Ti?p kh?ch",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 180,
+    "Giao d?ch": "Test",
+    "Type nghi?p v?": "?i?u ch?nh h?a ??n b?n",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 181,
+    "Giao d?ch": "Test",
+    "Type nghi?p v?": "?i?u ch?nh h?a ??n b?n",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 182,
+    "Giao d?ch": "Chuy?n n? c?c kho?n kh?ch h?ng - HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 183,
+    "Giao d?ch": "X? l? C?ng n? kh? ??i - 2 b??c - HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 184,
+    "Giao d?ch": "T?m ?ng - x? l? c?ng n? - HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 185,
+    "Giao d?ch": "Cho m??n - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 186,
+    "Giao d?ch": "Tr? l?i ti?n cho KH - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 187,
+    "Giao d?ch": "N?p ti?n m?t v?o NH 11217",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 188,
+    "Giao d?ch": "C?n tr? c?ng n? NCC_Ho?n ?ng - HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 189,
+    "Giao d?ch": "N?p ti?n v?o TK 11217",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 190,
+    "Giao d?ch": "Thu nh?p kh?c_?i?u ch?nh c?ng n? NCC_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 191,
+    "Giao d?ch": "N?p ti?n m?t v?o TK 112*",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 192,
+    "Giao d?ch": "Ghi nh?n chi ph?_KHL_642*_1411",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 193,
+    "Giao d?ch": "Ghi nh?n chi ph?_HL_642*_1311_1411",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 194,
+    "Giao d?ch": "C?n tr? c?ng n? 1311-3311 - HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 195,
+    "Giao d?ch": "Thu t?m ?ng nh?n vi?n",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 196,
+    "Giao d?ch": "Xu?t kho h?ng tr? mua h?ng_KHD",
+    "Type nghi?p v?": "H?ng mua tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 197,
+    "Giao d?ch": "L?i vay TC, CN kh?c_KHL_3311",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 198,
+    "Giao d?ch": "L?i vay TC, CN kh?c_HL_3311",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 199,
+    "Giao d?ch": "Chi ph? b?c x?p",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 200,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_CHD_6325",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 201,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c kh?c_KHD_632",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 202,
+    "Giao d?ch": "X? l? ph?i thu kh?ch h?ng - HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 203,
+    "Giao d?ch": "Ho?n ?ng mua h?ng_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 204,
+    "Giao d?ch": "N?p ti?n m?t v?o ng?n h?ng_HL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 205,
+    "Giao d?ch": "Tr? l??ng NV-Thu? TNCN",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 206,
+    "Giao d?ch": "X? l? H?_KHL_5111B-1311",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 207,
+    "Giao d?ch": "Nh?p mua h?ng trong n??c -x? l?-KH?",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 208,
+    "Giao d?ch": "Thu kh?c ti?n g?i - gi?m chi ph?",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 209,
+    "Giao d?ch": "T?m ?ng l??ng ti?n m?t",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 210,
+    "Giao d?ch": "Giao d?ch x? l? ti?n_KHL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 211,
+    "Giao d?ch": "Giao d?ch x? l? ti?n 11217_1111A",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 212,
+    "Giao d?ch": "Giao d?ch x? l? ti?n_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 213,
+    "Giao d?ch": "?i?u chuy?n 141",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 214,
+    "Giao d?ch": "T?m ?ng l??ng ti?n g?i",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 215,
+    "Giao d?ch": "T?m ?ng kh?c_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 216,
+    "Giao d?ch": "T?m ?ng mua h?ng_KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 217,
+    "Giao d?ch": "T?m ?ng mua h?ng HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 218,
+    "Giao d?ch": "X? l? c?ng n? KH kh?c_811",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 219,
+    "Giao d?ch": "Tr? l?i h?ng mua NCC",
+    "Type nghi?p v?": "H?ng mua tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 220,
+    "Giao d?ch": "Chi ph? th??ng l?, t?t (l??ng)_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 221,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c **_KHL",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 222,
+    "Giao d?ch": "?i?u ch?nh c?ng n? kh?c - PTKH",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 223,
+    "Giao d?ch": "Nghi?p v? x? l? l??ng kh?c",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 224,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c kh?c_CHD_642*",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 225,
+    "Giao d?ch": "Nh?n - Thu ti?n m?t t? cho vay/m??n - HL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 226,
+    "Giao d?ch": "Nh?n - Thu ti?n g?i t? cho vay/m??n - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 227,
+    "Giao d?ch": "Tr? - Chi ti?n m?t cho m??n/vay - KHL",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 228,
+    "Giao d?ch": "Tr? - Chi ti?n g?i cho m??n/vay - HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 229,
+    "Giao d?ch": "Chi ti?n ghi nh?n chi ph?_KHD_642",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 230,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_KHD_6324",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 231,
+    "Giao d?ch": "Chi ph? qu?n l? kh?c_KHD_64228",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 232,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_KHD_6325",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 233,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_KHD_6323",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 234,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_CHD_6323",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 235,
+    "Giao d?ch": "Thu nh?p kh?c -HL- DC c?ng n? NCC",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 236,
+    "Giao d?ch": "Ghi nh?n chi ph? l??ng thu? ngo?i kh?c",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 237,
+    "Giao d?ch": "Chi ph? ph?n b? CCDC ng?n h?n-BH_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 238,
+    "Giao d?ch": "Chi ph? t?i ch?nh kh?c_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 239,
+    "Giao d?ch": "Chi ph? t?i ch?nh kh?c_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 240,
+    "Giao d?ch": "L?i vay TC, CN kh?c_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 241,
+    "Giao d?ch": "L?i vay Ng?n h?ng_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 242,
+    "Giao d?ch": "L?i vay TC, CN kh?c_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 243,
+    "Giao d?ch": "Tr? t?m ?ng l??ng-TUNG_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 244,
+    "Giao d?ch": "Tr? thu? TNCN-TNCN_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 245,
+    "Giao d?ch": "Tr? l??ng Nh?n vi?n-KPC?_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 246,
+    "Giao d?ch": "Tr? l??ng Nh?n vi?n-KPC?_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 247,
+    "Giao d?ch": "Tr? l??ng Nh?n vi?n-BHTN_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 248,
+    "Giao d?ch": "Tr? l??ng Nh?n vi?n-BHYT_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 249,
+    "Giao d?ch": "Tr? l??ng Nh?n vi?n-BHXH_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 250,
+    "Giao d?ch": "N?p KPC?_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 251,
+    "Giao d?ch": "N?p BHTN_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 252,
+    "Giao d?ch": "N?p BHYT_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 253,
+    "Giao d?ch": "Ghi nh?n chi ph? KPC? QL_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 254,
+    "Giao d?ch": "Ghi nh?n chi ph? KPC? BH_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 255,
+    "Giao d?ch": "Ghi nh?n chi ph? BHTN QL_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 256,
+    "Giao d?ch": "Ghi nh?n chi ph? BHTN BH_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 257,
+    "Giao d?ch": "Ghi nh?n chi ph? BHYT QL_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 258,
+    "Giao d?ch": "Ghi nh?n chi ph? BHYT BH_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 259,
+    "Giao d?ch": "Ghi nh?n chi ph? KPC? QL_HL",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 260,
+    "Giao d?ch": "Ghi nh?n chi ph? KPC? BH_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 261,
+    "Giao d?ch": "Ghi nh?n chi ph? BHTN QL_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 262,
+    "Giao d?ch": "Ghi nh?n chi ph? BHTN BH_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 263,
+    "Giao d?ch": "Ghi nh?n chi ph? BHYT QL_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 264,
+    "Giao d?ch": "Ghi nh?n chi ph? BHYT BH_HL_",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 265,
+    "Giao d?ch": "Ghi nh?n chi ph? BHXH QL_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 266,
+    "Giao d?ch": "Ghi nh?n chi ph? BHXH BH_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 267,
+    "Giao d?ch": "Ghi nh?n chi ph? l??ng QL_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 268,
+    "Giao d?ch": "Ghi nh?n chi ph? l??ng QL_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 269,
+    "Giao d?ch": "X? l? s? l? d? -Thu ti?n Kh?ch h?ng_TM_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 270,
+    "Giao d?ch": "X? l? s? l? d? -Thu ti?n Kh?ch h?ng_TG_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 271,
+    "Giao d?ch": "X? l? s? l? thi?u -Thu ti?n Kh?ch h?ng_TM_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 272,
+    "Giao d?ch": "X? l? s? l? thi?u -Thu ti?n Kh?ch h?ng_TG_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 273,
+    "Giao d?ch": "Thu ti?n g?i kh?ch h?ng trong n??c_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 274,
+    "Giao d?ch": "Chi ph? tr? tr??c ng?n h?n_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 275,
+    "Giao d?ch": "Chi ph? tr? tr??c d?i h?n_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 276,
+    "Giao d?ch": "Chi tr? ph? ng?n h?ng_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 277,
+    "Giao d?ch": "Mua CCDC d?i h?n_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 278,
+    "Giao d?ch": "Mua CCDC d?i h?n_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 279,
+    "Giao d?ch": "Mua CCDC ng?n h?n_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 280,
+    "Giao d?ch": "Mua CCDC ng?n h?n_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 281,
+    "Giao d?ch": "Xu?t kho h?ng tr? b?n h?ng_KHD",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 282,
+    "Giao d?ch": "Xu?t kho h?ng tr? mua h?ng_KHD",
+    "Type nghi?p v?": "H?ng mua tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 283,
+    "Giao d?ch": "Nh?p mua NVL SX trong n??c_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 284,
+    "Giao d?ch": "Chi kh?c ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 285,
+    "Giao d?ch": "Nh?n th?nh ph?m v?o kho_CHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 286,
+    "Giao d?ch": "Nh?p mua h?ng th??ng m?i Nh?p Kh?u_KHD",
+    "Type nghi?p v?": "Mua nh?p kh?u",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 287,
+    "Giao d?ch": "Nh?p mua h?ng th??ng m?i trong n??c_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 288,
+    "Giao d?ch": "Nh?p mua h?ng th??ng m?i Nh?p Kh?u_CHD",
+    "Type nghi?p v?": "Mua nh?p kh?u",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 289,
+    "Giao d?ch": "Nh?p mua NVL SX trong n??c_CHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 290,
+    "Giao d?ch": "Nh?n th?nh ph?m v?o kho_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 291,
+    "Giao d?ch": "Ph?n b? chi ph? gia c?ng/s?n xu?t_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 292,
+    "Giao d?ch": "Ghi nh?n chi ph? l??ng BH_HL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 293,
+    "Giao d?ch": "Ghi nh?n chi ph? l??ng BH_KHL",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 294,
+    "Giao d?ch": "Ghi nh?n chi ph? BHXH_QL_HL_3383",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 295,
+    "Giao d?ch": "Ghi nh?n chi ph? BHXH BH_HL_3383",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 296,
+    "Giao d?ch": "K?t chuy?n thu? GTGT_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 297,
+    "Giao d?ch": "K?t chuy?n thu? GTGT_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 298,
+    "Giao d?ch": "T?m t?nh thu? TNDN_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 299,
+    "Giao d?ch": "X? l? t?i s?n thi?u_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 300,
+    "Giao d?ch": "X? l? t?i s?n thi?u_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 301,
+    "Giao d?ch": "X? l? t?i s?n th?a_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 302,
+    "Giao d?ch": "X? l? t?i s?n th?a_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 303,
+    "Giao d?ch": "??nh gi? Ch?nh l?ch ngo?i t?_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 304,
+    "Giao d?ch": "K?t chuy?n doanh thu chi ph? cu?i k?_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 305,
+    "Giao d?ch": "K?t chuy?n doanh thu chi ph? cu?i k?_KHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 306,
+    "Giao d?ch": "K?t chuy?n l?i nhu?n_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 307,
+    "Giao d?ch": "K?t chuy?n l?_KHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 308,
+    "Giao d?ch": "K?t chuy?n l?_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 309,
+    "Giao d?ch": "K?t chuy?n l?i nhu?n n?m nay sang n?m tr??c_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 310,
+    "Giao d?ch": "K?t chuy?n l?i nhu?n n?m nay sang n?m tr??c_KHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 311,
+    "Giao d?ch": "K?t chuy?n l? n?m nay sang n?m tr??c_CHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 312,
+    "Giao d?ch": "K?t chuy?n l? n?m nay sang n?m tr??c_KHD",
+    "Type nghi?p v?": "T?ng h?p",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 313,
+    "Giao d?ch": "Xu?t kho h?ng tr? mua h?ng_CHD",
+    "Type nghi?p v?": "H?ng mua tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 314,
+    "Giao d?ch": "Xu?t kho h?ng tr? b?n h?ng_CHD",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 315,
+    "Giao d?ch": "NGHI?P V? KH?C_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 316,
+    "Giao d?ch": "NGHI?P V? KH?C_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 317,
+    "Giao d?ch": "??nh gi? Ch?nh l?ch ngo?i t?_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 318,
+    "Giao d?ch": "Nh?p mua h?ng v? ghi nh?n ho? ??n trong n??c_CHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 319,
+    "Giao d?ch": "Thu l?i ti?n g?i ng?n h?ng_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 320,
+    "Giao d?ch": "Thu tr? c?p b?o hi?m_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 321,
+    "Giao d?ch": "Thu ti?n vay v?o t?i kho?n_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 322,
+    "Giao d?ch": "chuy?n ti?n n?i b?_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 323,
+    "Giao d?ch": "chuy?n ti?n n?i b?_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 324,
+    "Giao d?ch": "Nh?n g?p v?n qua ng?n h?ng_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 325,
+    "Giao d?ch": "Nh?n g?p v?n qua ng?n h?ng_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 326,
+    "Giao d?ch": "Thu kh?c ti?n g?i_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 327,
+    "Giao d?ch": "Thu kh?c ti?n g?i_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 328,
+    "Giao d?ch": "Chi ti?n tr? nh? cung c?p ti?n g?i_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 329,
+    "Giao d?ch": "Chi ti?n tr? nh? cung c?p ti?n g?i_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 330,
+    "Giao d?ch": "Vay HD bank tr? ti?n nh? cung c?p_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 331,
+    "Giao d?ch": "Vay TP bank tr? ti?n nh? cung c?p_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 332,
+    "Giao d?ch": "Chi tr? n? vay_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 333,
+    "Giao d?ch": "Chi tr? n? vay_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 334,
+    "Giao d?ch": "Chi tr? L?i vay ng?n h?ng_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 335,
+    "Giao d?ch": "Chi tr? L?i vay t? ch?c,c? nh?n_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 336,
+    "Giao d?ch": "Chi tr? L?i vay t? ch?c,c? nh?n_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 337,
+    "Giao d?ch": "N?p thu? TNCN TAX_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 338,
+    "Giao d?ch": "N?p BHXH_HL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 339,
+    "Giao d?ch": "Chi ho?n ti?n tr? tr??c, k? qu? c?a KH_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 340,
+    "Giao d?ch": "Chi ho?n ti?n tr? tr??c, k? qu? c?a KH_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 341,
+    "Giao d?ch": "Chi tr? tr??c, ??t c?c, k? qu?, k? c??c cho NCC_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 342,
+    "Giao d?ch": "Chi tr? tr??c, ??t c?c, k? qu?, k? c??c cho NCC_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 343,
+    "Giao d?ch": "Chi ti?n t?m ?ng nh?n vi?n ti?n g?i_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 344,
+    "Giao d?ch": "Chi ti?n t?m ?ng nh?n vi?n ti?n g?i_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 345,
+    "Giao d?ch": "Chi l??ng nh?n vi?n ti?n g?i_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 346,
+    "Giao d?ch": "Ph?i tr?, ph?i thu ti?n Ng?n h?ng_KHL",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 347,
+    "Giao d?ch": "Chi c?c kho?n ghi nh?n chi ph? tr?c ti?p qua ng?n h?ng_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 348,
+    "Giao d?ch": "Chi c?c kho?n ghi nh?n chi ph? tr?c ti?p qua ng?n h?ng_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 349,
+    "Giao d?ch": "Chi kh?c ti?n g?i_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 350,
+    "Giao d?ch": "Chi kh?c ti?n g?i - ghi chi ph?",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 351,
+    "Giao d?ch": "Chi ph? tr? tr??c ng?n h?n_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 352,
+    "Giao d?ch": "Chi ph? tr? tr??c d?i h?n_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 353,
+    "Giao d?ch": "Kh?u Hao TSCD_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 354,
+    "Giao d?ch": "Kh?u Hao TSCD_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 355,
+    "Giao d?ch": "Ph?n b? chi ph? gia c?ng/s?n xu?t_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 356,
+    "Giao d?ch": "Nh?n g?p v?n b?ng ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 357,
+    "Giao d?ch": "Nh?n g?p v?n b?ng ti?n m?t_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 358,
+    "Giao d?ch": "Thu kh?c ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 359,
+    "Giao d?ch": "Thu kh?c ti?n m?t_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 360,
+    "Giao d?ch": "Chi ti?n tr? nh? cung c?p ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 361,
+    "Giao d?ch": "Chi ti?n tr? nh? cung c?p ti?n m?t_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 362,
+    "Giao d?ch": "Chi tr? l?i ??t c?c/k? qu? cho KH_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 363,
+    "Giao d?ch": "Chi tr? l?i ??t c?c/k? qu? cho KH_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 364,
+    "Giao d?ch": "Chi ??t c?c, k? qu?, k? c??c cho NCC_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 365,
+    "Giao d?ch": "Chi ??t c?c, k? qu?, k? c??c cho NCC_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 366,
+    "Giao d?ch": "Chi ti?n t?m ?ng nh?n vi?n ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 367,
+    "Giao d?ch": "Chi ti?n t?m ?ng nh?n vi?n ti?n m?t_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 368,
+    "Giao d?ch": "Chi l??ng nh?n vi?n ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 369,
+    "Giao d?ch": "Chi l??ng ti?n m?t_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 370,
+    "Giao d?ch": "Chi ti?n m?t c?c kho?n ghi nh?n chi ph? tr?c ti?p_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 371,
+    "Giao d?ch": "Chi ti?n m?t c?c kho?n ghi nh?n chi ph? tr?c ti?p_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 372,
+    "Giao d?ch": "Chi kh?c ti?n m?t - ghi chi ph?",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 373,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng trong n??c_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 374,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng nh?p kh?u_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 375,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng trong n??c_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 376,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng k? qu?_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 377,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng k? qu?_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 378,
+    "Giao d?ch": "Kh?ch h?ng chuy?n nh?m ti?n v?o t?i kho?n_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 379,
+    "Giao d?ch": "Kh?ch h?ng chuy?n nh?m ti?n v?o t?i kho?n_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 380,
+    "Giao d?ch": "Thu ti?n nh? cung c?p tr? l?i trong n??c_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 381,
+    "Giao d?ch": "Thu ti?n nh? cung c?p tr? l?i nh?p kh?u_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 382,
+    "Giao d?ch": "Thu ti?n nh? cung c?p tr? l?i trong n??c_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 383,
+    "Giao d?ch": "Thu ho?n t?m ?ng ti?n g?i_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 384,
+    "Giao d?ch": "Thu ho?n t?m ?ng ti?n g?i_KHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 385,
+    "Giao d?ch": "Thu l?i ti?n g?i ng?n h?ng_CHD",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 386,
+    "Giao d?ch": "Nh?p kho h?ng tr?_CHD",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 387,
+    "Giao d?ch": "Nh?p kho h?ng tr?_KHD",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 388,
+    "Giao d?ch": "Xu?t kho kh?c_CHD",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 389,
+    "Giao d?ch": "Xu?t kho kh?c_KHD",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 390,
+    "Giao d?ch": "Nh?p kho Gia c?ng S?n xu?t_CHD",
+    "Type nghi?p v?": "Kho gia c?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 391,
+    "Giao d?ch": "Nh?p kho Gia c?ng S?n xu?t_KHD",
+    "Type nghi?p v?": "Kho gia c?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 392,
+    "Giao d?ch": "Nh?p CCDC trong n??c_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 393,
+    "Giao d?ch": "Nh?p CCDC trong n??c_KHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 394,
+    "Giao d?ch": "Xu?t t?i s?n trong n??c_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 395,
+    "Giao d?ch": "Xu?t t?i s?n trong n??c_KHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 396,
+    "Giao d?ch": "Nh?p t?i s?n nh?p kh?u_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 397,
+    "Giao d?ch": "Nh?p t?i s?n nh?p kh?u_KHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 398,
+    "Giao d?ch": "Xu?t t?i s?n nh?p kh?u_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 399,
+    "Giao d?ch": "Xu?t t?i s?n nh?p kh?u_KHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 400,
+    "Giao d?ch": "Chi ph? h?ng ??i/tr? t?nh ph? KH_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 401,
+    "Giao d?ch": "Chi ph? h?ng ??i/tr? t?nh ph? KH_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 402,
+    "Giao d?ch": "Chi ph? h?ng ??i/tr?_CHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 403,
+    "Giao d?ch": "Chi ph? h?ng ??i/tr?_KHD",
+    "Type nghi?p v?": "Giao d?ch kh?c",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 404,
+    "Giao d?ch": "?i?u ch?nh T?ng kho_CHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 405,
+    "Giao d?ch": "?i?u ch?nh t?ng kho_KHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 406,
+    "Giao d?ch": "?i?u ch?nh gi?m kho_CHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 407,
+    "Giao d?ch": "?i?u ch?nh gi?m kho_KHD",
+    "Type nghi?p v?": "Kho",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 408,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 409,
+    "Giao d?ch": "Thu ti?n kh?ch h?ng_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 410,
+    "Giao d?ch": "Thu ti?n nh? cung c?p tr? l?i_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 411,
+    "Giao d?ch": "Thu ti?n nh? cung c?p tr? l?i_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 412,
+    "Giao d?ch": "Thu ho?n t?m ?ng ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 413,
+    "Giao d?ch": "Thu ho?n t?m ?ng ti?n m?t_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 414,
+    "Giao d?ch": "R?t ti?n g?i ng?n h?ng v? nh?p qu? ti?n m?t_CHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 415,
+    "Giao d?ch": "R?t ti?n g?i ng?n h?ng v? nh?p qu? ti?n m?t_KHD",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 416,
+    "Giao d?ch": "Nh?p kho kh?c_CHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 417,
+    "Giao d?ch": "Nh?p kho kh?c_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 418,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_CHD_6324",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 419,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c kh?c_KHD_642",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 420,
+    "Giao d?ch": "Nh?n d?ch v? nh?p kh?u_CHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 421,
+    "Giao d?ch": "Nh?n d?ch v? nh?p kh?u_KHD",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 422,
+    "Giao d?ch": "Xu?t kho Gia c?ng S?n xu?t_CHD",
+    "Type nghi?p v?": "Kho gia c?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 423,
+    "Giao d?ch": "Xu?t kho Gia c?ng S?n xu?t_KHD",
+    "Type nghi?p v?": "Kho gia c?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 424,
+    "Giao d?ch": "Xu?t kho b?n h?ng_CHD",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 425,
+    "Giao d?ch": "Xu?t kho b?n h?ng_KHD",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 426,
+    "Giao d?ch": "Chi ti?n tr? nh? cung c?p_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 427,
+    "Giao d?ch": "Chi ti?n tr? nh? cung c?p_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 428,
+    "Giao d?ch": "Chi tr? nh? cung c?p qua ng?n h?ng_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 429,
+    "Giao d?ch": "Chi tr? nh? cung c?p qua ng?n h?ng_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 430,
+    "Giao d?ch": "Chi ph? h?ng ??i /tr?_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 431,
+    "Giao d?ch": "Chi ph? h?ng ??i /tr?_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 432,
+    "Giao d?ch": "Chi ph? h?ng ??i /tr? t?nh ph? KH_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 433,
+    "Giao d?ch": "Chi ph? h?ng ??i /tr? t?nh ph? KH_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 434,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 435,
+    "Giao d?ch": "Nh?n d?ch v? trong n??c_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 436,
+    "Giao d?ch": "Gi?m tr? c?ng n? kh?ch h?ng trong n??c_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 437,
+    "Giao d?ch": "Gi?m tr? c?ng n? kh?ch h?ng trong n??c_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 438,
+    "Giao d?ch": "Nh?p kho h?ng tr?_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 439,
+    "Giao d?ch": "Nh?p kho h?ng tr?_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 440,
+    "Giao d?ch": "Xu?t tr? h?ng NCC_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng mua tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 441,
+    "Giao d?ch": "Xu?t tr? h?ng NCC_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng mua tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 442,
+    "Giao d?ch": "Xu?t b?n h?ng_DLC_KHD",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 443,
+    "Giao d?ch": "Xu?t b?n h?ng trong n??c_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 444,
+    "Giao d?ch": "Xu?t b?n h?ng trong n??c_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 445,
+    "Giao d?ch": "Xu?t b?n h?ng_DLC_CHD",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 446,
+    "Giao d?ch": "Nh?p mua h?ng trong n??c_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 447,
+    "Giao d?ch": "Xu?t h?ng ?i gia c?ng_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 448,
+    "Giao d?ch": "Xu?t h?ng ?i gia c?ng_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 449,
+    "Giao d?ch": "Nh?p ph? gia c?ng h?ng_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 450,
+    "Giao d?ch": "Nh?p ph? gia c?ng h?ng_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 451,
+    "Giao d?ch": "Nh?n h?ng sau gia c?ng_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 452,
+    "Giao d?ch": "Nh?n h?ng sau gia c?ng_KHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 453,
+    "Giao d?ch": "Nh?p mua h?ng trong n??c_CHD_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 454,
+    "Giao d?ch": "Nh?n h?ng v?o kho_DLC_KHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 455,
+    "Giao d?ch": "Nh?n h?ng v?o kho_DLC_CHD",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Tax",
+    "C?p cha": ""
+  },
+  {
+    "STT": 456,
+    "Giao d?ch": "Xu?t kh?c (s? d?ng,g?p v?n)_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? b?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 457,
+    "Giao d?ch": "Chuy?n ti?n n?i b?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chuy?n ti?n n?i b? - Ti?n g?i"
+  },
+  {
+    "STT": 458,
+    "Giao d?ch": "1. Thu l?i ??u t? t?i ch?nh_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n g?i"
+  },
+  {
+    "STT": 459,
+    "Giao d?ch": "2. Thu ho?n thu? GTGT_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n g?i"
+  },
+  {
+    "STT": 460,
+    "Giao d?ch": "3. Thu ti?n vay qua ng?n h?ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n g?i"
+  },
+  {
+    "STT": 461,
+    "Giao d?ch": "4. Thu ho?n ?ng nh?n vi?n_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n g?i"
+  },
+  {
+    "STT": 462,
+    "Giao d?ch": "5. Thu ti?n kh?ch h?ng (kh?ng theo h?a ??n)_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n g?i"
+  },
+  {
+    "STT": 463,
+    "Giao d?ch": "H?ng b?n tr? l?i_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng b?n tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? b?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 464,
+    "Giao d?ch": "H?ng mua tr? l?i_Kh?ng s? d?ng",
+    "Type nghi?p v?": "H?ng mua tr? l?i",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? mua h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 465,
+    "Giao d?ch": "Tr? ti?n theo h?a ??n - ti?n g?i_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Tr? ti?n theo h?a ??n - Ti?n g?i_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 466,
+    "Giao d?ch": "Thu ti?n theo h?a ??n - ti?n g?i_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu ti?n theo h?a ??n - Ti?n g?i_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 467,
+    "Giao d?ch": "1. Thu ti?n theo h?a ??n - Ti?n g?i_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ng?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 468,
+    "Giao d?ch": "2. Chuy?n ti?n n?i b? - Ti?n g?i",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ng?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 469,
+    "Giao d?ch": "2. Tr? ti?n theo h?a ??n - Ti?n g?i_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ng?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 470,
+    "Giao d?ch": "Mua h?ng trong n??c nh?p kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? mua h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 471,
+    "Giao d?ch": "Mua h?ng trong n??c kh?ng qua kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? mua h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 472,
+    "Giao d?ch": "Mua h?ng nh?p kh?u nh?p kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua nh?p kh?u",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? mua h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 473,
+    "Giao d?ch": "Mua h?ng nh?p kh?u kh?ng qua kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua nh?p kh?u",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? mua h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 474,
+    "Giao d?ch": "Mua h?ng d?ch v?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua d?ch v?",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? mua h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 475,
+    "Giao d?ch": "1. T?m ?ng cho nh?n vi?n__Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n m?t"
+  },
+  {
+    "STT": 476,
+    "Giao d?ch": "2. G?i ti?n v?o ng?n h?ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n m?t"
+  },
+  {
+    "STT": 477,
+    "Giao d?ch": "3. Tr? ti?n nh? cung c?p (kh?ng theo h?a ??n)__Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n m?t"
+  },
+  {
+    "STT": 478,
+    "Giao d?ch": "4. Chi mua ngo?i c? h?a ??n__Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n m?t"
+  },
+  {
+    "STT": 479,
+    "Giao d?ch": "5. Tr? l??ng nh?n vi?n__Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n m?t"
+  },
+  {
+    "STT": 480,
+    "Giao d?ch": "6. Chuy?n ti?n cho chi nh?nh kh?c__Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n m?t"
+  },
+  {
+    "STT": 481,
+    "Giao d?ch": "7. Chi kh?c__Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n m?t"
+  },
+  {
+    "STT": 482,
+    "Giao d?ch": "Ch?ng t? mua h?ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Mua h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 483,
+    "Giao d?ch": "1. Thu ti?n theo h?a ??n - ti?n m?t",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ti?n m?t_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 484,
+    "Giao d?ch": "2. Tr? ti?n theo h?a ??n - ti?n m?t",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ti?n m?t_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 485,
+    "Giao d?ch": "6. Thu kh?c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n g?i"
+  },
+  {
+    "STT": 486,
+    "Giao d?ch": "Tr? ti?n theo h?a ??n - ti?n m?t_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Tr? ti?n theo h?a ??n - ti?n m?t"
+  },
+  {
+    "STT": 487,
+    "Giao d?ch": "Thu ti?n theo h?a ??n - ti?n m?t_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu ti?n theo h?a ??n - ti?n m?t"
+  },
+  {
+    "STT": 488,
+    "Giao d?ch": "Ng?n h?ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Giao d?ch kh?c_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 489,
+    "Giao d?ch": "1. Thu - Ti?n g?i",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ng?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 490,
+    "Giao d?ch": "2. Chi - Ti?n g?i",
+    "Type nghi?p v?": "Ti?n g?i",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ng?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 491,
+    "Giao d?ch": "1. T?m ?ng cho nh?n vi?n_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n g?i"
+  },
+  {
+    "STT": 492,
+    "Giao d?ch": "2. Tr? c?c kho?n vay_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n g?i"
+  },
+  {
+    "STT": 493,
+    "Giao d?ch": "3. Tr? ti?n nh? cung c?p (kh?ng theo h?a ??n)_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n g?i"
+  },
+  {
+    "STT": 494,
+    "Giao d?ch": "4. Chi mua ngo?i c? h?a ??n_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n g?i"
+  },
+  {
+    "STT": 495,
+    "Giao d?ch": "5. Tr? l??ng nh?n vi?n_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n g?i"
+  },
+  {
+    "STT": 496,
+    "Giao d?ch": "6. Chuy?n ti?n cho chi nh?nh kh?c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n g?i"
+  },
+  {
+    "STT": 497,
+    "Giao d?ch": "7. Chi kh?c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "2. Chi - Ti?n g?i"
+  },
+  {
+    "STT": 498,
+    "Giao d?ch": "1. Thu ho?n ?ng nh?n vi?n_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n m?t"
+  },
+  {
+    "STT": 499,
+    "Giao d?ch": "2. R?t ti?n g?i v? nh?p qu?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n m?t"
+  },
+  {
+    "STT": 500,
+    "Giao d?ch": "3. Thu ti?n kh?ch h?ng (kh?ng theo h?a ??n)_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n m?t"
+  },
+  {
+    "STT": 501,
+    "Giao d?ch": "4. Thu kh?c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "1. Thu - Ti?n m?t"
+  },
+  {
+    "STT": 502,
+    "Giao d?ch": "2 - Mua h?ng trong n??c kh?ng qua kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 503,
+    "Giao d?ch": "3 - Mua h?ng nh?p kh?u nh?p kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua nh?p kh?u",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 504,
+    "Giao d?ch": "4 - Mua h?ng nh?p kh?u kh?ng qua kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua nh?p kh?u",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 505,
+    "Giao d?ch": "B?n h?ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 506,
+    "Giao d?ch": "Ch?ng t? b?n h?ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "B?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 507,
+    "Giao d?ch": "1 - B?n h?ng h?a trong n??c _Kh?ng s? d?ng",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? b?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 508,
+    "Giao d?ch": "2 - B?n h?ng xu?t kh?u_Kh?ng s? d?ng",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? b?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 509,
+    "Giao d?ch": "3 - B?n h?ng ??i l? b?n ??ng gi?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "B?n h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? b?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 510,
+    "Giao d?ch": "4 - B?n h?ng ?y th?c xu?t kh?u_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? b?n h?ng_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 511,
+    "Giao d?ch": "Ti?n m?t_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Giao d?ch kh?c_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 512,
+    "Giao d?ch": "1. Thu - Ti?n m?t",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ti?n m?t_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 513,
+    "Giao d?ch": "2. Chi - Ti?n m?t",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "",
+    "Tax": "",
+    "C?p cha": "Ti?n m?t_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 514,
+    "Giao d?ch": "4. Kh?c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? ngi?p v? kh?c_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 515,
+    "Giao d?ch": "C?ng c? d?ng c?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 516,
+    "Giao d?ch": "Ghi t?ng c?ng c? d?ng c?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "C?ng c? d?ng c?_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 517,
+    "Giao d?ch": "Chi ph? tr? tr??c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "C?ng c? d?ng c?_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 518,
+    "Giao d?ch": "Giao d?ch kh?c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 519,
+    "Giao d?ch": "Xu?t gia c?ng- xi_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 520,
+    "Giao d?ch": "Mua h?ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 521,
+    "Giao d?ch": "1 - Mua h?ng trong n??c nh?p kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "Mua h?ng",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 522,
+    "Giao d?ch": "Xu?t kho ki?m v?n chuy?n n?i b?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Chuy?n kho_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 523,
+    "Giao d?ch": "Xu?t kho g?i b?n ??i l?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Chuy?n kho_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 524,
+    "Giao d?ch": "Xu?t chuy?n kho n?i b?_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Chuy?n kho_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 525,
+    "Giao d?ch": "Ch?ng t? ngi?p v? kh?c_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  },
+  {
+    "STT": 526,
+    "Giao d?ch": "Thu ti?n m?t ho?n ?ng sale",
+    "Type nghi?p v?": "Ti?n m?t",
+    "Tr?ng th?i": "?ang s? d?ng",
+    "Tax": "Non tax",
+    "C?p cha": "Ch?ng t? ngi?p v? kh?c_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 527,
+    "Giao d?ch": "2. Vay ng?n h?ng chuy?n tr? cho nh? cung c?p_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? ngi?p v? kh?c_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 528,
+    "Giao d?ch": "3. H?ch to?n chi ph? l??ng_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": "Ch?ng t? ngi?p v? kh?c_Kh?ng s? d?ng"
+  },
+  {
+    "STT": 529,
+    "Giao d?ch": "Chuy?n kho_Kh?ng s? d?ng",
+    "Type nghi?p v?": "",
+    "Tr?ng th?i": "Kh?ng s? d?ng",
+    "Tax": "",
+    "C?p cha": ""
+  }
+]
