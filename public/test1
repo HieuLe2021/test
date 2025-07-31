@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dataverse Browser</title>
+  <style>
+    body{font-family:system-ui,Arial,Helvetica,sans-serif;margin:2rem}
+    .flex{display:flex;gap:0.75rem;align-items:center;margin-bottom:1rem}
+    select,input,button{padding:0.5rem;font-size:1rem}
+    pre{background:#f7f7f7;padding:1rem;border:1px solid #ddd;overflow:auto;max-height:70vh}
+  </style>
+</head>
+<body>
+  <h2>📄 Trình duyệt dữ liệu Dataverse</h2>
+
+  <!-- Chọn / nhập LogicalName -->
+  <div class="flex">
+    <label for="table">Chọn bảng:&nbsp;</label>
+    <select id="table">
+      <option value="crdfd_saleorderdetails">crdfd_saleorderdetails</option>
+      <option value="crdfd_employee">crdfd_employee</option>
+      <!-- Thêm bảng khác tại đây -->
+      <option value="__custom">⟵ Tự nhập</option>
+    </select>
+    <input id="customTable" placeholder="Nhập LogicalName…" style="display:none;width:16rem">
+    <button id="btnLoad">Tải dữ liệu</button>
+  </div>
+
+  <pre id="output">Hãy chọn bảng và bấm “Tải dữ liệu”.</pre>
+
+  <script>
+    /* ====== Tùy chỉnh nhanh ====== */
+    const LOGIC_APP   = 'https://prod-51.southeastasia.logic.azure.com/…sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs';
+    const CRM_DOMAIN  = 'https://wecare-ii.crm5.dynamics.com';
+    const MAX_TOP     = 1000;                   // số bản ghi mỗi trang
+    /* ================================= */
+
+    // Cột cần lấy (áp dụng cho mọi bảng; sửa lại nếu cần riêng biệt)
+    const SELECT_COLUMNS = [
+      'crdfd_name','createdon','modifiedon'
+      // thêm cột khác...
+    ].join(',');
+
+    const tableSel   = document.getElementById('table');
+    const customInput= document.getElementById('customTable');
+    const output     = document.getElementById('output');
+    const btnLoad    = document.getElementById('btnLoad');
+
+    // Hiện ô input nếu user chọn “Tự nhập”
+    tableSel.addEventListener('change', () => {
+      customInput.style.display = tableSel.value === '__custom' ? 'inline-block' : 'none';
+    });
+
+    btnLoad.addEventListener('click', () => {
+      const tableName = tableSel.value === '__custom'
+        ? customInput.value.trim()
+        : tableSel.value;
+      if (!tableName) { alert('Chưa nhập tên bảng!'); return; }
+      loadData(tableName);
+    });
+
+    async function loadData(table) {
+      const show = msg => output.textContent = msg;
+      try {
+        show('⏳ Lấy token…');
+        const baseUrl = `${CRM_DOMAIN}/api/data/v9.2/${table}?$top=${MAX_TOP}&$select=${encodeURIComponent(SELECT_COLUMNS)}`;
+
+        /* --- 1. Lấy Access-Token qua Logic App --- */
+        const tokenResp = await fetch(LOGIC_APP, {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify({ targetUrl: baseUrl })
+        });
+        if (!tokenResp.ok) throw new Error(`Token error ${tokenResp.status}`);
+        const token = await tokenResp.text();
+
+        /* --- 2. Gọi Dataverse (đã xử lý phân trang) --- */
+        let url = baseUrl, all = [];
+        while (url){
+          show(`⏳ Đang tải dữ liệu… (${all.length})`);
+          const resp = await fetch(url,{ headers:{Authorization:`Bearer ${token}`}});
+          if (!resp.ok) throw new Error(`OData error ${resp.status}`);
+          const json = await resp.json();
+          all = all.concat(json.value);
+          url = json['@odata.nextLink'];
+        }
+
+        /* --- 3. Hiển thị --- */
+        show(JSON.stringify(all, null, 2));
+      } catch (err) {
+        show('❌ Lỗi: ' + err.message);
+      }
+    }
+  </script>
+</body>
+</html>
