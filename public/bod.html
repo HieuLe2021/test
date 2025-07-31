@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Load Dataverse</title>
+</head>
+<body>
+  <div class="container">
+    <h2>📄 Dữ liệu bảng <code>crdfd_saleorderdetails</code></h2>
+    <pre id="output">Đang khởi tạo…</pre>
+  </div>
+
+  <script>
+    async function loadData() {
+      const output = document.getElementById("output");
+      output.textContent = "⏳ Đang tải dữ liệu…";
+
+      const webhook = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs"; 
+      const table = "crdfd_buyorderdetailses";
+	  const option = "?$top=1000";
+	  const columns = "&$select=crdfd_name,crdfd_trangthaigiaonhan1,crdfd_soluongsanpham,crdfd_onvionhang,crdfd_gia,crdfd_nhomsanpham,crdfd_ngaytaoon,crdfd_ngaygiaodukientonghop,crdfd_soluongchuyenoi,crdfd_soluongthucnhantheokhoatruoitra,crdfd_onvichuan,crdfd_tongtienchuavat1,crdfd_ieuchinhgtgt,crdfd_thue,crdfd_ghichu,crdfd_ngaygiaonhanthucte,crdfd_buyorderdetailsid,createdon";
+	  const crmUrl  = "https://wecare-ii.crm5.dynamics.com/api/data/v9.2/" + table + option + columns;
+
+      try {
+        // Lấy token
+        const tokenResp = await fetch(webhook, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ targetUrl: crmUrl })
+        });
+        const token = await tokenResp.text();
+
+        // Lấy data
+        const dataResp = await fetch(crmUrl, {
+          headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/json' }
+        });
+        const data = await dataResp.json();
+        
+        // Hiển thị
+        output.textContent = JSON.stringify(data, null, 2);
+
+      } catch (err) {
+        output.textContent = `❌ Lỗi: ${err.message}`;
+      }
+    }
+
+    // Gọi tự động khi DOM đã sẵn sàng
+    document.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>
