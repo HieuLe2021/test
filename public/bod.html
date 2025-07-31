@@ -15,11 +15,13 @@
       const output = document.getElementById("output");
       output.textContent = "⏳ Đang tải dữ liệu…";
 
-      const webhook = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs"; 
-      const table = "crdfd_buyorderdetailses";
-	  const option = "?$top=1000";
-	  const columns = "&$select=crdfd_name,crdfd_trangthaigiaonhan1,crdfd_soluongsanpham,crdfd_onvionhang,crdfd_gia,crdfd_nhomsanpham,crdfd_ngaytaoon,crdfd_ngaygiaodukientonghop,crdfd_soluongchuyenoi,crdfd_soluongthucnhantheokhoatruoitra,crdfd_onvichuan,crdfd_tongtienchuavat1,crdfd_ieuchinhgtgt,crdfd_thue,crdfd_ghichu,crdfd_ngaygiaonhanthucte,crdfd_buyorderdetailsid,createdon";
-	  const crmUrl  = "https://wecare-ii.crm5.dynamics.com/api/data/v9.2/" + table + option + columns;
+      	const webhook = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs"; 
+      	const table_name = "crdfd_buyorderdetailses";
+	const columns = "?$select=crdfd_name,crdfd_trangthaigiaonhan1,crdfd_soluongsanpham,crdfd_onvionhang,crdfd_gia,crdfd_nhomsanpham,crdfd_ngaytaoon,crdfd_ngaygiaodukientonghop,crdfd_soluongchuyenoi,crdfd_soluongthucnhantheokhoatruoitra,crdfd_onvichuan,crdfd_tongtienchuavat1,crdfd_ieuchinhgtgt,crdfd_thue,crdfd_ghichu,crdfd_ngaygiaonhanthucte,crdfd_buyorderdetailsid,createdon";
+	const filter_rows = "(statecode eq 0 and Microsoft.Dynamics.CRM.LastXDays(PropertyName='createdon',PropertyValue=30))";
+	const expand = "";
+	const count = "&$top=1000";
+	const crmUrl  = "https://wecare-ii.crm5.dynamics.com/api/data/v9.2/" + table_name + columns + filter_rows + expand +  count ;
 
       try {
         // Lấy token
