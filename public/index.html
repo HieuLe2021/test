@@ -1,83 +1,44 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8" />
-  <title>Test bảng crdfd_employee</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wecare Data Viewer</title>
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #f3f4f6;
-      padding: 40px;
-      color: #111827;
-    }
-    .container {
-      max-width: 560px;
-      margin: auto;
-      background: white;
-      padding: 32px;
-      border-radius: 16px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    }
-    h2 {
-      font-size: 22px;
-      margin-bottom: 20px;
-    }
-    button {
-      background: #2563eb;
-      color: white;
-      border: none;
-      padding: 12px 18px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: 600;
-      margin-top: 12px;
-      width: 100%;
-    }
-    pre {
-      background: #f9fafb;
-      padding: 16px;
-      border-radius: 8px;
-      margin-top: 24px;
-      font-size: 14px;
-      white-space: pre-wrap;
-      max-height: 400px;
-      overflow-y: auto;
-      border: 1px solid #e5e7eb;
-    }
+    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 2rem; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h2 { color: #333; }
+    button { background: #1a73e8; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #155cc1; }
+    pre { background: #eee; padding: 1rem; overflow-x: auto; white-space: pre-wrap; word-break: break-word; }
+    .error { color: red; font-weight: bold; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h2>📄 Xem dữ liệu bảng <code>crdfd_employee</code></h2>
+    <h2>📄 Xem dữ liệu bảng <span id="table-name">crdfd_employee</span></h2>
     <button onclick="loadData()">📥 Load Data</button>
-    <pre id="output">Chưa có dữ liệu...</pre>
+    <div id="output"></div>
   </div>
 
   <script>
+    // ⚙️ Cấu hình bảng và web app endpoint
+    const tableName = "crdfd_employee";
+    const webAppId = "AKfycbz1fvA0SjryMl4_4K_Xf75gvaVQCuHzrJ7WJQsjg9GhOrnezEMDcjYyGBgF3QFr2xig";
+    const url = `https://script.google.com/macros/s/${webAppId}/exec?sheet=${tableName}`;
+
     async function loadData() {
-      const output = document.getElementById("output");
-      output.textContent = "⏳ Đang tải dữ liệu...";
-
-      const webhook = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs";
-
-      const payload = {
-        targetUrl: "https://wecare-ii.crm5.dynamics.com/api/data/v9.2/crdfd_employees?$top=5"
-      };
+      const output = document.getElementById('output');
+      output.innerHTML = '⏳ Đang tải dữ liệu...';
 
       try {
-        const res = await fetch(webhook, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-
-        if (!res.ok) throw new Error(`Lỗi ${res.status}`);
-
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`Lỗi: ${res.status}`);
         const json = await res.json();
-        output.textContent = JSON.stringify(json, null, 2);
+
+        output.innerHTML = `<pre>${JSON.stringify(json, null, 2)}</pre>`;
       } catch (err) {
-        output.textContent = `❌ ${err.message}`;
+        output.innerHTML = `<div class="error">❌ ${err.message}</div>`;
       }
     }
   </script>
