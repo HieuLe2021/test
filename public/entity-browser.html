@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>📋 Trình duyệt bảng Dataverse</title>
+  <style>
+    body { font-family: Arial; margin: 2rem; }
+    select, button { padding: 0.5rem; margin-right: 0.5rem; font-size: 1rem; }
+    pre { background: #f8f8f8; padding: 1rem; border: 1px solid #ccc; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h2>📋 Chọn bảng Dataverse</h2>
+  <div>
+    <label>Chọn bảng:</label>
+    <select id="entityDropdown"><option>⏳ Đang tải...</option></select>
+    <button onclick="loadData()">Tải dữ liệu</button>
+  </div>
+  <pre id="output">🔄 Đang khởi tạo…</pre>
+
+  <script>
+    const CRM_URL = "https://wecare-ii.crm5.dynamics.com";
+    const LOGIC_APP = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs";
+    const entityMap = {}; // LogicalName → EntitySetName
+
+    const dropdown = document.getElementById("entityDropdown");
+    const output = document.getElementById("output");
+
+    async function fetchEntityList() {
+      output.textContent = "⏳ Đang tải danh sách bảng…";
+
+      const metadataUrl = `${CRM_URL}/api/data/v9.2/EntityDefinitions?$select=LogicalName,EntitySetName&$filter=IsCustomizable/Value eq true`;
+
+      try {
+        const tokenResp = await fetch(LOGIC_APP, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ targetUrl: metadataUrl })
+        });
+        const token = await tokenResp.text();
+
+        const dataResp = await fetch(metadataUrl, {
+          headers: { Authorization: "Bearer " + token }
+        });
+        const json = await dataResp.json();
+
+        dropdown.innerHTML = "";
+        json.value.forEach(entity => {
+          const { LogicalName, EntitySetName } = entity;
+          entityMap[LogicalName] = EntitySetName;
+
+          const option = document.createElement("option");
+          option.value = LogicalName;
+          option.textContent = LogicalName;
+          dropdown.appendChild(option);
+        });
+
+        output.textContent = `✅ Đã tải ${json.value.length} bảng`;
+
+      } catch (err) {
+        output.textContent = "❌ Lỗi khi lấy danh sách bảng: " + err.message;
+      }
+    }
+
+    async function getValidFields(logicalName, token) {
+      const attrUrl = `${CRM_URL}/api/data/v9.2/EntityDefinitions(LogicalName='${logicalName}')/Attributes?$select=LogicalName&$top=15`;
+
+      const resp = await fetch(attrUrl, {
+        headers: { Authorization: "Bearer " + token }
+      });
+      const json = await resp.json();
+      const fields = json.value.map(attr => attr.LogicalName);
+      return fields;
+    }
+
+    async function loadData() {
+      const logical = dropdown.value;
+      const entitySet = entityMap[logical];
+
+      output.textContent = `⏳ Lấy token và danh sách cột của bảng ${logical}…`;
+
+      try {
+        // 1. Lấy token
+        const tokenResp = await fetch(LOGIC_APP, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ targetUrl: CRM_URL }) // Dummy target
+        });
+        const token = await tokenResp.text();
+
+        // 2. Lấy cột hợp lệ
+        const fields = await getValidFields(logical, token);
+        const selectClause = fields.length > 0 ? `?$select=${fields.join(",")}` : "";
+
+        // 3. Gọi data
+        const dataUrl = `${CRM_URL}/api/data/v9.2/${entitySet}${selectClause}&$top=50`;
+
+        output.textContent = `⏳ Đang tải dữ liệu từ ${entitySet}…`;
+
+        const dataResp = await fetch(dataUrl, {
+          headers: { Authorization: "Bearer " + token }
+        });
+        const json = await dataResp.json();
+        output.textContent = JSON.stringify(json, null, 2);
+
+      } catch (err) {
+        output.textContent = "❌ Lỗi khi load dữ liệu: " + err.message;
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", fetchEntityList);
+  </script>
+</body>
+</html>
