@@ -1,46 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wecare Data Viewer</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 2rem; }
-    .container { max-width: 800px; margin: auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h2 { color: #333; }
-    button { background: #1a73e8; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
-    button:hover { background: #155cc1; }
-    pre { background: #eee; padding: 1rem; overflow-x: auto; white-space: pre-wrap; word-break: break-word; }
-    .error { color: red; font-weight: bold; }
-  </style>
+  <meta charset="utf-8" />
+  <title>Wecare Data Portal</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@1.5.10/css/pico.min.css">
 </head>
 <body>
-  <div class="container">
-    <h2>📄 Xem dữ liệu bảng <span id="table-name">crdfd_employee</span></h2>
-    <button onclick="loadData()">📥 Load Data</button>
-    <div id="output"></div>
-  </div>
-
-  <script>
-    // ⚙️ Cấu hình bảng và web app endpoint
-    const tableName = "crdfd_employee";
-    const webAppId = "AKfycbz1fvA0SjryMl4_4K_Xf75gvaVQCuHzrJ7WJQsjg9GhOrnezEMDcjYyGBgF3QFr2xig";
-    const url = `https://script.google.com/macros/s/${webAppId}/exec?sheet=${tableName}`;
-
-    async function loadData() {
-      const output = document.getElementById('output');
-      output.innerHTML = '⏳ Đang tải dữ liệu...';
-
-      try {
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`Lỗi: ${res.status}`);
-        const json = await res.json();
-
-        output.innerHTML = `<pre>${JSON.stringify(json, null, 2)}</pre>`;
-      } catch (err) {
-        output.innerHTML = `<div class="error">❌ ${err.message}</div>`;
-      }
-    }
-  </script>
+  <main class="container">
+    <h1>Welcome</h1>
+    <ul>
+      <!-- Luôn mở sẵn bảng crdfd_employee -->
+      <li><a href="data.html?table=crdfd_employee">View crdfd_employee (HTML)</a></li>
+      <!-- Raw JSON (hoặc file tĩnh nếu bạn build sẵn) -->
+      <li><a
+        href="https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs&table=crdfd_employee"
+        target="_blank" rel="noopener">Raw JSON</a></li>
+    </ul>
+  </main>
 </body>
 </html>
