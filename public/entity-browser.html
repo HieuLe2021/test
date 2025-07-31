@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <title>📋 Trình duyệt bảng Dataverse</title>
   <style>
-    body { font-family: Arial; margin: 2rem; }
+    body { font-family: Arial, sans-serif; margin: 2rem; }
     select, button { padding: 0.5rem; margin-right: 0.5rem; font-size: 1rem; }
-    pre { background: #f8f8f8; padding: 1rem; border: 1px solid #ccc; white-space: pre-wrap; }
+    pre { background: #f8f8f8; padding: 1rem; border: 1px solid #ccc; white-space: pre-wrap; max-height: 80vh; overflow-y: auto; }
   </style>
 </head>
 <body>
@@ -32,12 +32,7 @@
       const metadataUrl = `${CRM_URL}/api/data/v9.2/EntityDefinitions?$select=LogicalName,EntitySetName&$filter=IsCustomizable/Value eq true`;
 
       try {
-        const tokenResp = await fetch(LOGIC_APP, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ targetUrl: metadataUrl })
-        });
-        const token = await tokenResp.text();
+        const token = await getToken(metadataUrl);
 
         const dataResp = await fetch(metadataUrl, {
           headers: { Authorization: "Bearer " + token }
@@ -62,15 +57,34 @@
       }
     }
 
+    async function getToken(targetUrl) {
+      const tokenResp = await fetch(LOGIC_APP, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ targetUrl })
+      });
+      return await tokenResp.text();
+    }
+
     async function getValidFields(logicalName, token) {
-      const attrUrl = `${CRM_URL}/api/data/v9.2/EntityDefinitions(LogicalName='${logicalName}')/Attributes?$select=LogicalName&$top=15`;
+      const attrUrl = `${CRM_URL}/api/data/v9.2/EntityDefinitions(LogicalName='${logicalName}')/Attributes?$select=LogicalName,AttributeType`;
 
       const resp = await fetch(attrUrl, {
         headers: { Authorization: "Bearer " + token }
       });
       const json = await resp.json();
-      const fields = json.value.map(attr => attr.LogicalName);
-      return fields;
+
+      const normalFields = json.value
+        .filter(attr =>
+          !["Lookup", "Customer", "Owner", "PartyList", "Virtual"].includes(attr.AttributeType)
+        )
+        .map(attr => attr.LogicalName);
+
+      const lookupFields = json.value
+        .filter(attr => ["Lookup", "Customer", "Owner"].includes(attr.AttributeType))
+        .map(attr => `_${attr.LogicalName}_value`);
+
+      return [...normalFields, ...lookupFields].slice(0, 20); // lấy tối đa 20 field
     }
 
     async function loadData() {
@@ -80,22 +94,19 @@
       output.textContent = `⏳ Lấy token và danh sách cột của bảng ${logical}…`;
 
       try {
-        // 1. Lấy token
-        const tokenResp = await fetch(LOGIC_APP, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ targetUrl: CRM_URL }) // Dummy target
-        });
-        const token = await tokenResp.text();
+        const token = await getToken(CRM_URL);
 
-        // 2. Lấy cột hợp lệ
+        // Lấy danh sách cột hợp lệ
         const fields = await getValidFields(logical, token);
-        const selectClause = fields.length > 0 ? `?$select=${fields.join(",")}` : "";
+        if (fields.length === 0) {
+          output.textContent = "⚠️ Không tìm thấy cột hợp lệ để hiển thị.";
+          return;
+        }
 
-        // 3. Gọi data
+        const selectClause = `?$select=${fields.join(",")}`;
         const dataUrl = `${CRM_URL}/api/data/v9.2/${entitySet}${selectClause}&$top=50`;
 
-        output.textContent = `⏳ Đang tải dữ liệu từ ${entitySet}…`;
+        output.textContent = `⏳ Đang tải dữ liệu từ bảng ${logical}…`;
 
         const dataResp = await fetch(dataUrl, {
           headers: { Authorization: "Bearer " + token }
