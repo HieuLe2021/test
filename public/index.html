@@ -66,10 +66,7 @@
     <h2>Lấy dữ liệu từ Dataverse</h2>
     <label for="table">Chọn bảng (Logical Name)</label>
     <select id="table">
-      <option value="accounts">accounts</option>
-      <option value="contacts">contacts</option>
-      <option value="leads">leads</option>
-      <option value="opportunities">opportunities</option>
+      <option value="">⏳ Đang tải danh sách bảng...</option>
     </select>
 
     <button onclick="loadData()">📦 Load Data</button>
@@ -78,12 +75,49 @@
   </div>
 
   <script>
+    const webhook = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs";
+
+    window.onload = loadTableList;
+
+    async function loadTableList() {
+      const tableSel = document.getElementById("table");
+      tableSel.innerHTML = `<option value="">⏳ Đang tải danh sách bảng...</option>`;
+
+      const metadataUrl = "https://wecare-ii.crm5.dynamics.com/api/data/v9.2/EntityDefinitions?$select=LogicalName,DisplayName&$top=500";
+
+      try {
+        const res = await fetch(webhook, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ targetUrl: metadataUrl })
+        });
+
+        if (!res.ok) throw new Error(`Lỗi tải metadata (${res.status})`);
+        const json = await res.json();
+
+        const list = json.value || [];
+        tableSel.innerHTML = `<option value="">-- Chọn bảng --</option>`;
+        for (const e of list) {
+          const name = e.LogicalName;
+          const label = e.DisplayName?.UserLocalizedLabel?.Label || name;
+          const option = document.createElement("option");
+          option.value = name;
+          option.textContent = `${label} (${name})`;
+          tableSel.appendChild(option);
+        }
+
+      } catch (err) {
+        tableSel.innerHTML = `<option value="">❌ Không tải được danh sách bảng</option>`;
+        console.error(err);
+      }
+    }
+
     async function loadData() {
       const table = document.getElementById("table").value;
       const output = document.getElementById("output");
-      output.textContent = "⏳ Đang tải dữ liệu...";
+      if (!table) return alert("⚠️ Chọn bảng trước");
 
-      const webhook = "https://prod-51.southeastasia.logic.azure.com:443/workflows/1db8c4d15497441287f7c888e8888ed4/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=8smnu3fDoDarEJ1vXEJV5YTDTjhQMKNHrM_AGw3uqXs";
+      output.textContent = "⏳ Đang tải dữ liệu...";
 
       const payload = {
         targetUrl: `https://wecare-ii.crm5.dynamics.com/api/data/v9.2/${table}?$top=5`
@@ -101,7 +135,7 @@
         const json = await res.json();
         output.textContent = JSON.stringify(json, null, 2);
 
-        // 🔽 Tự động ghi file data.json
+        // 🔽 Ghi file data.json tự động
         const blob = new Blob([JSON.stringify(json, null, 2)], { type: 'application/json' });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
