@@ -74,17 +74,21 @@
       });
       const json = await resp.json();
 
+      // 1. Lọc field thường (không phải lookup)
       const normalFields = json.value
         .filter(attr =>
           !["Lookup", "Customer", "Owner", "PartyList", "Virtual"].includes(attr.AttributeType)
         )
-        .map(attr => attr.LogicalName);
+        .map(attr => attr.LogicalName)
+        .filter(name => !name.endsWith("name")); // bỏ các field như cr1bb_xxxname
 
+      // 2. Lọc thêm field lookup dạng _lookup_value
       const lookupFields = json.value
         .filter(attr => ["Lookup", "Customer", "Owner"].includes(attr.AttributeType))
         .map(attr => `_${attr.LogicalName}_value`);
 
-      return [...normalFields, ...lookupFields].slice(0, 20); // lấy tối đa 20 field
+      // 3. Trả về tối đa 20 field
+      return [...normalFields, ...lookupFields].slice(0, 20);
     }
 
     async function loadData() {
@@ -96,7 +100,7 @@
       try {
         const token = await getToken(CRM_URL);
 
-        // Lấy danh sách cột hợp lệ
+        // Lấy danh sách field hợp lệ
         const fields = await getValidFields(logical, token);
         if (fields.length === 0) {
           output.textContent = "⚠️ Không tìm thấy cột hợp lệ để hiển thị.";
